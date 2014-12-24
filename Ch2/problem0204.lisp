@@ -1,0 +1,13 @@
+(setq l1 '(apple orange pear grapefruit))
+(setq l2 '((apple orange) (pear grapefruit)))
+(setq l3 '(((apple) (orange) (pear) (grapefruit))))
+(setq l4 '(apple (orange) ((pear)) (((grapefruit)))))
+(setq l5 '((((apple))) ((orange)) (pear) grapefruit))
+(setq l6 '((((apple) orange) pear) grapefruit))
+
+(first (rest (rest l1)))
+(first (first (rest l2)))
+(first (first (rest (rest (first l3)))))
+(first (first (first (rest (rest l4)))))
+(first (first (rest (rest l5))))
+(first (rest (first l6)))
