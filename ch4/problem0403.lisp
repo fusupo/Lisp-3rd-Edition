@@ -1,0 +1,5 @@
+(defun rightp (c a b)
+  (let ((aabb (+ (* a a) (* b b)))
+        (cc (* c c)))
+    (< 0.98 (/ aabb cc))
+    ))

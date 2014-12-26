@@ -1,0 +1,15 @@
+(cond ((equal nil u) t)
+      (t nil))
+;; * (cond (u nil) (t t))
+
+(cond ((x) x)
+      ((y) y)
+      ((z) z)
+      (t nil))
+;; * (cond (x) (y) (t z))
+
+(cond ((not x) nil)
+      ((not y) nil)
+      ((not z) nil)
+      (t t))
+;; * (cond ((not a) nil) ((not b) nil) (t c))
