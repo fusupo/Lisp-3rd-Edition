@@ -1,0 +1,5 @@
+((David Kirsh) (fever rash))
+((Georg Hegel) (fever headache))
+((Immanuel Kant) (nausea))
+((Rene Descartes) (nausea))
+((Jean-Paul Sartres) (nausea stomachache))
