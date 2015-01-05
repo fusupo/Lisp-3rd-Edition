@@ -1,0 +1,5 @@
+(defun adam (x)
+  (let ((father (get x 'father)))
+    (if (father)
+        (adam father)
+        x)))
